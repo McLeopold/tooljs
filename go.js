@@ -33,6 +33,7 @@ tool.rm('stuff', true)(function (err) {
 
 exec([], {verbose: true})
   .echo('test')
+  .exec('ls')
   .rm('stuff/*', {recursive: true})
   .copy('node_modules/async/lib/async.js', 'stuff/what.js')
   //.cp('node_modules/async/*', 'stuff/', {recursive: true})
