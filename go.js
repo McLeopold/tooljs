@@ -33,5 +33,6 @@ tool.rm('stuff', true)(function (err) {
 
 exec([], {verbose: true})
   .echo('test')
+  .rm('stuff/*', {recursive: true})
   .copy('node_modules', 'stuff', {recursive: true})
 ;
