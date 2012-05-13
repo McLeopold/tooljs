@@ -1,7 +1,27 @@
 {
   "name"        : "tooljs",
+  "description" : "Better jake files, cross-platform utilties",
   "version"     : "0.1.0",
+  "author"      : "McLeopold",
+  "maintainers" : [
+                    {
+                      "name": "McLeopold",
+                      "email": "mcleopold@gmail.com"
+                    }
+                  ],
+  "repository"  : {
+                    "type": "git",
+                    "url" : "http://github.com/McLeopold/tooljs.git"
+                  },
+  "directories" : { "lib": "./lib" },
+  "main"        : "./tool.js",
   "dependencies": {
-    "async": "latest"
-  }
+                    "async": "latest"
+                  },
+  "licenses"    : [
+                    {
+                      "type": "BSD",
+                      "url": "http://github.com/McLeopold/tooljs/blob/master/LICENSE"
+                    }
+                  ]
 }
