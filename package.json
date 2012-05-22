@@ -1,7 +1,7 @@
 {
   "name"        : "tooljs",
   "description" : "Better jake files, cross-platform utilties",
-  "version"     : "0.1.4",
+  "version"     : "0.1.5",
   "author"      : "McLeopold",
   "maintainers" : [
                     {
