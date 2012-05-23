@@ -31,7 +31,7 @@ tool.rm('stuff', true)(function (err) {
 });
 */
 
-exec([], {verbose: true})
+exec([], {verbose: true}, function () { console.log('finished'); })
   .echo('test')
   .exec('ls')
   .rm('stuff/*', {recursive: true})
